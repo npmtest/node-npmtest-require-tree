@@ -1,6 +1,6 @@
 # npmtest-require-tree
 
-#### test coverage for  [require-tree (v1.1.1)](https://github.com/ricardobeat/require-tree)  [![npm package](https://img.shields.io/npm/v/npmtest-require-tree.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-require-tree) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-require-tree.svg)](https://travis-ci.org/npmtest/node-npmtest-require-tree)
+#### basic test coverage for  [require-tree (v1.1.1)](https://github.com/ricardobeat/require-tree)  [![npm package](https://img.shields.io/npm/v/npmtest-require-tree.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-require-tree) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-require-tree.svg)](https://travis-ci.org/npmtest/node-npmtest-require-tree)
 
 #### Batch module loader, require() for directories
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-require-tree/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-require-tree/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-require-tree/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-require-tree/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-require-tree/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-require-tree/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-require-tree/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-require-tree/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-require-tree/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-require-tree/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-require-tree/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-require-tree/build/coverage.html/index.html)
 
@@ -90,7 +90,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "1.1.1"
+    "version": "1.1.1",
+    "bin": {}
 }
 ```
 
